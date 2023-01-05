@@ -1,6 +1,6 @@
 # spec/solver_spec.rb
 require "rspec"
-require "solver"
+require "./solver"
 
 RSpec.describe Solver do
   subject(:solver) { described_class.new }
