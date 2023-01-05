@@ -123,7 +123,7 @@ To run the project, execute the following command:
 <!--
 Example command:
 
-```sh
+```
   rails server
 ```
 --->
@@ -134,8 +134,8 @@ To run tests, run the following command:
 
 Example command:
 
-```sh
-   rspec *_rspec.rb
+```
+   rspec spec/solver_spec.rb
 ```
 
 
