@@ -197,8 +197,7 @@ Feel free to check the [issues page](https://github.com/didierganthier/tdd-solve
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project...
+Please ⭐️ this repository if you found the project useful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,8 +205,6 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-Please ⭐️ this repository if you found the project useful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
