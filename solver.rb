@@ -1,27 +1,27 @@
 class Solver
-    def factorial(n)
-        if n < 0
-            raise "factorial is not defined for negative integers"
-        elsif n == 0
-            1
-        else
-            (1..n).reduce(:*)
-        end
+  def factorial(num)
+    if num.negative?
+      raise 'factorial is not defined for negative integers'
+    elsif num.zero?
+      1
+    else
+      (1..num).reduce(:*)
     end
+  end
 
-    def reverse(word)
-        word.reverse
-    end
+  def reverse(word)
+    word.reverse
+  end
 
-    def fizzbuzz(n)
-        if n % 3 == 0 && n % 5 == 0
-          "fizzbuzz"
-        elsif n % 3 == 0
-          "fizz"
-        elsif n % 5 == 0
-          "buzz"
-        else
-          n.to_s
-        end
+  def fizzbuzz(name)
+    if (name % 3).zero? && (name % 5).zero?
+      'fizzbuzz'
+    elsif (name % 3).zero?
+      'fizz'
+    elsif (name % 5).zero?
+      'buzz'
+    else
+      name.to_s
     end
+  end
 end
